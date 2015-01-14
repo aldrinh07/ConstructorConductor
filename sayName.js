@@ -1,7 +1,7 @@
 //Create a Person constructor that accepts name and age as parameters and sets those properties accordingly in the Constructor.
 
   //code here
-
+alert("aldrin");
 
 //Now create three instances of Person with data you make up
 

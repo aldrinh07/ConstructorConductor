@@ -17,7 +17,7 @@ var User = function(name, email, pw){
 var users = [];
 var tyler = new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS');
 var cahlan = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
-var lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup')
+var lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
 //Now create and push into your users array 3 seperate instances of User using the data from above in that exact order
 
   //code here
@@ -51,5 +51,4 @@ console.log('All my users names are ');
 
     for(var i = 0; i < users.length; i++){
         console.log(users[i].name);
-
 };

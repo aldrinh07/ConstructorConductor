@@ -3,30 +3,41 @@
 //Let's think about the nature of this quiz app first. We're going to be creating lots of user objects, and we're
 //also going to be creating lots of Question objects. Those would make two perfectly good constructors. 
 
-//Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
+//Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriately
 
   //code here
-
+var User = function(name, email, password, totalScore){
+    this.name = name;
+    this.email = email;
+    this.password = password;
+    this.totalScore = totalScore;
+};
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
 
   //code here
+var Question = function(title, answersArray, rightAnswer, difficulty){
+    this.title = title;
+    this.answersArray = answersArray;
+    this.rightAnswer = rightAnswer;
+    this.difficulty = diffictulty;
+}
 
 
 //Create a users Array which is going to hold all of our users.
 
   //code here
-
+var users = [];
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
   //code here
-
+users.push(new User("Ben", "s.benjamin.nelson@gmail.com", "ilovejs");
 
 //Create a questions Array which is going to hold all of our questions
 
   //code here
-
+)
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
 //title: 'T/F: Inheritance is achieved in JavaScript through Prototypes?'
